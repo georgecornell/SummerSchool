@@ -1,0 +1,56 @@
+#case 1
+python solveEq2.py 1 5 4
+-1.0
+-4.0
+
+#case 2
+python solveEq2.py 1 4 4
+-2.0
+
+#case 3
+python solveEq2.py 1 5 5
+-1.38196601125
+-3.61803398875
+
+#case 4
+python solveEq2.py 1 4 5
+(-2+1j)
+(-2-1j)
+
+#case 5
+python solveEq2.py -1 0 -1
+-1j
+1j
+
+#case 6
+python solveEq2.py 1 4 0
+0.0
+-4.0
+
+#case 7
+python solveEq2.py 1 0 0
+0.0
+
+#case 8
+python solveEq2.py 0 2 1
+first argument(a) may not be zero
+
+#case 9
+python solveEq2.py 0 0 1
+first argument(a) may not be zero
+
+#case 10
+python solveEq2.py 0 0 0
+Infinite number of solutions
+
+#case 11
+python solveEq2.py 1 2
+Not enough arguments
+
+#case 12
+python solveEq2.py a
+Not enough arguments
+
+#case 13
+python solveEq2.py a b c
+Program arguments must be numbers
